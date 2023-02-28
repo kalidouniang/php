@@ -1,0 +1,7 @@
+DirectoryIndex router.php
+Options +FollowSymlinks
+RewriteEngine on
+
+# ----------------------------------------------------------
+# zone-controlleur-action
+RewriteRule ^(([a-zA-Z0-9_]+-)?[a-zA-Z0-9_]+-)?[a-zA-Z0-9_]+\.do router.php [L]

@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+.lyt-top { background-color: 0FFF63 }
+
+
+/* General sizing */
+ul.dropdown-lr {
+  width: 300px;
+}
+
+/* mobile fix */
+@media (max-width: 768px) {
+	.dropdown-lr h3 {
+		color: #eee;
+	}
+	.dropdown-lr label {
+		color: #eee;
+	}
+}
+.nbar {
+	background-color: #A8DAFF;
+}

@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+.wdgt-head { background-color: #CCE5FF; }
+.wdgt { background-color: #8EBFFF; border: 1 solid navy; }
+.lyt-top { background-color: #93FFB2 }
+
+
+/* General sizing */
+ul.dropdown-lr {
+  width: 300px;
+}
+
+/* mobile fix */
+@media (max-width: 768px) {
+	.dropdown-lr h3 {
+		color: #eee;
+	}
+	.dropdown-lr label {
+		color: #eee;
+	}
+}
+.nbar {
+	background-color: #FFDBEB;
+}
